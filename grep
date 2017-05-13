@@ -1,0 +1,38 @@
+Command Name: grep 
+Use         : to pick the matched pattern from the file 
+Syntax      : grep [options] pattern filename
+
+Examples: 
+1. To pick the pattern from the file 
+grep 'pattern' filename 
+
+2. To ignore the case 
+grep -i 'pattern' filename 
+
+3. To get the lines other than the matched pattern 
+grep -v 'pattern' filename 
+
+4. To recursively search the pattern from all the files in the directory 
+grep -r 'pattern' * 
+* works like a wild card, it takes all files in the directory 
+
+5. To search multiple patterns from the single file 
+grep -e 'pattern1'  -e 'pattern2' filename 
+
+6. To get the pattern from the file 
+grep -f pattern_stored_in_a_file.txt filename
+
+7. To count the total number of lines where the pattern matches 
+grep -c 'pattern' filename 
+
+8. To print the line with line number where the pattern matches 
+grep -n 'pattern' filename 
+
+9. To match the exact match 
+grep -w 'pattern' filename 
+
+10.To print #number of lines after the match 
+grep -A# 'pattern' filename 
+
+
+
