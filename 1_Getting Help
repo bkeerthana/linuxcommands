@@ -5,6 +5,7 @@ Different methods to get help
 
 2.  Task: To get more information for the particular command. 
     command: info command_name 
+             pinfo command_name    # color code 
 
 3.  Task: To check the command is internal or external 
     command: type command_name 
