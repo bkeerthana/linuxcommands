@@ -31,3 +31,5 @@ Different methods to get help
 10. Task: To get the help module 
     command: command_name --help 
     
+11. Task: To list all the internal commands
+    command: compgen -b | column
