@@ -34,3 +34,7 @@ Different methods to get help
     
 11. Task: To list all the internal commands
     command: compgen -b | column
+
+12. Task: To list all the environments variables 
+    command: env
+             set |less 
