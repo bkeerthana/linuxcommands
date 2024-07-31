@@ -1,0 +1,33 @@
+Different methods to get help 
+
+1.  Task: To check the manual for the particular command. 
+    command: man command_name 
+
+2.  Task: To get more information for the particular command. 
+    command: info command_name 
+
+3.  Task: To check the command is internal or external 
+    command: type command_name 
+
+4.  Task: To check the manual page for internal command
+    command: help command_name
+
+5.  Task: To list the possible commands based on the keyword
+    command: apropos keyword 
+             man -k keyword 
+
+6.  Task: To known one line description about the command
+    command: whatis command_name 
+
+7. Task: To known the path of the command 
+   command: which command_name 
+
+8. Task: To known the path of the source, binary file
+   command: whereis command_name 
+
+9. Task: To get the cheat sheets about the command
+   command: cheat command_name 
+
+10. Task: To get the help module 
+    command: command_name --help 
+    
