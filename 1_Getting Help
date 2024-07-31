@@ -39,3 +39,6 @@ Different methods to get help
 12. Task: To list all the environments variables 
     command: env
              set |less 
+
+13. Task: To check the command is installed or not
+    command: command -v command_name
