@@ -19,6 +19,7 @@ Different methods to get help
 
 6.  Task: To known one line description about the command
     command: whatis command_name 
+             man -f command_name
 
 7. Task: To known the path of the command 
    command: which command_name 
