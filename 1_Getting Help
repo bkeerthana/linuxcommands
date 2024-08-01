@@ -17,14 +17,14 @@ Different methods to get help
     command: apropos keyword 
              man -k keyword 
 
-6.  Task: To known one line description about the command
+6.  Task: To know one line description about the command
     command: whatis command_name 
              man -f command_name
 
-7. Task: To known the path of the command 
+7. Task: To know the path of the command 
    command: which command_name 
 
-8. Task: To known the path of the source, binary file
+8. Task: To know the path of the source, binary file
    command: whereis command_name 
 
 9. Task: To get the cheat sheets about the command
