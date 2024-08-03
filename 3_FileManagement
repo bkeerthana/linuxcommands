@@ -1,0 +1,36 @@
+1. Task : To create file 
+   Command: vi
+
+2. Task: To create directory 
+   Command: mkdir 
+
+3. Task: To list the files and folders 
+   Command : ls 
+
+4. Task: To move to previous directory 
+   Command: cd 
+
+5. Task: To copy the files 
+   Command: cp
+
+6. Task: To move the file
+   Command: mv
+
+7. Task: To delete the file 
+   command: rm
+
+8. Task: To delete the directory 
+   Command: rmdir
+
+9. Task: To delete the directory with its content 
+   Command: rm -rf 
+
+10. Task: To view the first few lines
+    Command: head 
+
+11. Task: To view the last few lines 
+    Command: tail 
+
+12. Task: To view the contents of file
+    Command: cat
+    
