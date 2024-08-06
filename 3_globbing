@@ -1,0 +1,49 @@
+globbing 
+Works on the file name 
+
+Related Terms
+glob
+wildcard 
+filename expansion 
+pathname expansion 
+ 
+operators 
+*  - Matches zero or more character
+?  - Matches one character 
+[] - any one character from the specification
+     Ex: [12345]
+         [15]
+         [1-5]
+
+{} - specifies the range of character 
+     Ex: {1..5}  # For range 
+         {1,2,3} # For individual 
+
+
+==================================================================================================
+Note: Difference between [ ] and { } 
+Brace Expansion { } 
+What : To generates a set of strings by expanding expressions.
+When to use : For generating multiple filenames or commands in a concise manner.
+
+Character class [ ] 
+What : To specify a character class, which matches any single character within the brackets.
+When to use: To filter files or directories based on specific character patterns.
+===================================================================================================
+
+Examples: 
+To list all the file name starts with a
+ls a* 
+
+To list all the file name ends with .txt 
+ls *.txt 
+
+To delete all the file ends with *.html 
+rm -i *.html   # interactive mode 
+
+To copy all .txt file to the parent directory 
+cp *.txt  ../
+cp *.txt directory
+
+To create folder and subfolders in single line 
+mkdir -p cybersecurity/sub{1..5}/{Theory,Lab}/U{1..5}/
