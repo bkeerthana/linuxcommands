@@ -1,5 +1,5 @@
 Different methods to get help 
-
+Command Line
 1.  Task: To check the manual for the particular command. 
     command: man command_name 
 
@@ -42,3 +42,9 @@ Different methods to get help
 
 13. Task: To check the command is installed or not
     command: command -v command_name
+
+Web Applications 
+
+1. explainshell.com   
+2. cheat.sh
+3. https://tldr.inbrowser.app/search/activate-site-search
