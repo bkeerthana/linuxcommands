@@ -47,3 +47,7 @@ cp *.txt directory
 
 To create folder and subfolders in single line 
 mkdir -p cybersecurity/sub{1..5}/{Theory,Lab}/U{1..5}/
+
+Reading: 
+man bash 
+man 7 glob
