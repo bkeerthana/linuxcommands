@@ -48,6 +48,58 @@ cp *.txt directory
 To create folder and subfolders in single line 
 mkdir -p cybersecurity/sub{1..5}/{Theory,Lab}/U{1..5}/
 
+======================================================================================================
+Extended Globbing
+======================================================================================================
+Task: To enable extended globbing 
+command: shopt -s extglob
+
+Task: To unset extended globbing 
+command: shopt -u extglob 
+
+Operators 
+  ?(pattern-list)   Matches zero or one occurrence of the given patterns
+  *(pattern-list)   Matches zero or more occurrences of the given patterns
+  +(pattern-list)   Matches one or more occurrences of the given patterns
+  @(pattern-list)   Matches one of the given patterns
+  !(pattern-list)   Matches anything except one of the given patterns
+
+Examples
+Task: To list all the html and json files 
+Command: ls @(*.html|*.json) 
+
+Task: To list all the files other than html and json files 
+Command: ls !(*.html|*.json) 
+
+Task: To list all the file name starts with a, after that any numeric value
+Command: ls a?([0-9])
+
+=================================================================================================
+globstar
+=================================================================================================
+To search current directory aswell as recursively through all its subdirectories
+
+To enable globstar
+shopt -s globstar
+
+To disable globstar
+shopt -u globstar
+
+Example
+ls **/*.@(json|html)
+
+==================================================================================================
+dotglob
+==================================================================================================
+To search hidden files 
+
+To enable dotglob
+shopt -s dotglob 
+
+Example
+ls **/*.txt
+
+
 Reading: 
 man bash 
 man 7 glob
