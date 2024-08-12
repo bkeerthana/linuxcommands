@@ -2,6 +2,9 @@ Command Name: grep
 Use         : to pick the matched pattern from the file 
 Syntax      : grep [options] pattern filename
 
+using pipes (unnamed pipe) 
+cat filename | grep 'pattern' 
+
 Examples: 
 1. To pick the pattern from the file 
 grep 'pattern' filename 
@@ -34,5 +37,8 @@ grep -w 'pattern' filename
 10.To print #number of lines after the match 
 grep -A# 'pattern' filename 
 
+11.To print #number of lines before the match 
+grep -B# 'pattern' filename 
 
-
+12.To print #number of lines after and before the match 
+grep -C# 'pattern' filename 
