@@ -1,0 +1,41 @@
+Operating System
+     - Functions
+     - Comoponents 
+          - Kernel
+          - Shell 
+          - File system 
+    - Role of the components 
+
+Linux File System
+    - File structure 
+    - Types of files 
+
+Linux Commands and Scripting
+    - Getting Help 
+    - Basic Commands 
+    - File Management commands 
+    - globbing 
+          -extended globbing
+    - Absoulte path and Relative path
+    - grep
+    - Regex
+        - Basic Regular expression 
+        - Extended Regular Expression
+        - Perl based Regular Expression 
+    - pipe 
+    - redirection 
+
+
+
+
+    - Scripting 
+    - Advantage of scripting 
+    - Constructs 
+          - sequence 
+          - conditional 
+
+    - command line arguments 
+          
+     
+
+      
