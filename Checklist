@@ -62,6 +62,18 @@ Linux Commands and Scripting
          [:word:]	Continuous string of alphanumeric characters and underscores.
          [:ascii:]	ASCII characters, in the range: 0-127
          [:cntrl:]	Any character not part of the character classes: [:upper:], [:lower:], [:alpha:], [:digit:], [:punct:], [:graph:], [:print:], [:xdigit:]
+
+PCRE Notation 
+
+          \n – Newline character
+          \t – Tab character
+          \s– Any whitespace character (including \t, \n and a few others)
+          \S – Any non-whitespace character
+          \w– Any word character (Uppercase and lowercase Latin alphabet, numbers 0-9, and _)
+          \W– Any non-word character (the inverse of the \w token)
+          \b– Word boundary: The boundaries between \w and \W, but matches in-between characters
+          \B– Non-word boundary: The inverse of \b
+
     - pipe 
 
     - tee 
