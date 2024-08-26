@@ -22,11 +22,57 @@ Linux Commands and Scripting
         - Basic Regular expression 
         - Extended Regular Expression
         - Perl based Regular Expression 
+    - Regex is used to 
+       Find pattern  (grep)
+       Extract fragments of some text
+       Replace fragments of text with other text
+
+     - Notation 
+     Anchor
+         ^ - The pattern starts with 
+         $ - The pattern endswith 
+         \<- The word starts with 
+         \>- The word ends with 
+     Alternative 
+          | - Alternate 
+     Groupinng 
+         () - Grouping
+      Match anything 
+          . 
+     Quantifiers - check for the previous occurance 
+         {m} - exact match
+         {m,n} - minimum to maximum
+         {m,}  
+         {,n}
+         + 
+         ? 
+         * 
+     Character class
+         [:alpha:]	Any letter, [A-Za-z]
+         [:upper:]	Any uppercase letter, [A-Z]
+         [:lower:]	Any lowercase letter, [a-z]
+         [:digit:]	Any digit, [0-9]
+         [:alnum:]	Any alphanumeric character, [A-Za-z0-9]
+         [:xdigit:]	Any hexadecimal digit, [0-9A-Fa-f]
+         [:space:]	A tab, new line, vertical tab, form feed, carriage return, or space
+         [:blank:]	A space or a tab.
+         [:print:]	Any printable character
+         [:punct:]	Any punctuation character: ! ' # S % & ' ( ) * + , - . / : ; < = > ? @ [ / ] ^ _ { | } ~
+         [:graph:]	Any character defined as a printable character except those defined as part of the space character class
+         [:word:]	Continuous string of alphanumeric characters and underscores.
+         [:ascii:]	ASCII characters, in the range: 0-127
+         [:cntrl:]	Any character not part of the character classes: [:upper:], [:lower:], [:alpha:], [:digit:], [:punct:], [:graph:], [:print:], [:xdigit:]
     - pipe 
+
+    - tee 
+
     - redirection 
 
-
-
+    - Quotes 
+       ' ' 
+       "  "
+       ` ` 
+       \ 
 
     - Scripting 
     - Advantage of scripting 
