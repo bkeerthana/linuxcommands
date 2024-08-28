@@ -75,10 +75,15 @@ PCRE Notation
           \B– Non-word boundary: The inverse of \b
 
     - pipe 
+          | 
 
     - tee 
 
     - redirection 
+        >
+        >> 
+        < 
+        << 
 
     - Quotes 
        ' ' 
