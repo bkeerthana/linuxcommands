@@ -95,7 +95,12 @@ PCRE Notation
     - Advantage of scripting 
     - Constructs 
           - sequence 
+                
           - conditional 
+                if
+                switch
+
+          - looping
 
     - command line arguments 
           
