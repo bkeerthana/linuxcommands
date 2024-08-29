@@ -91,6 +91,21 @@ PCRE Notation
        ` ` 
        \ 
 
+    - sed 
+        sed Vs grep
+        How sed works 
+        Options 
+           -i 
+           -e 
+           -n 
+           -r 
+
+        commands 
+           p
+           d
+           y
+           s
+
     - Scripting 
     - Advantage of scripting 
     - Constructs 
