@@ -15,6 +15,11 @@ grep -i 'pattern' filename
 3. To get the lines other than the matched pattern 
 grep -v 'pattern' filename 
 
+
+Reference: 
+man grep
+
+
 4. To recursively search the pattern from all the files in the directory 
 grep -r 'pattern' * 
 * works like a wild card, it takes all files in the directory 
