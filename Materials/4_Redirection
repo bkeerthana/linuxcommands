@@ -1,0 +1,33 @@
+Redirecting the standard input/ output 
+
+command > output.txt    - redirect the standard output of the command to a file, if the file exists it will overwrite
+command >> output.txt   - redirect the standard output of the command to a file, it will add at end of the file 
+command 2> err.txt      - redirect the standard error of the command to a file, it will overwrite 
+command 2>> err.txt     - redirect the standard error of the command to a file, it will append 
+
+Overwrite error and standard output
+command &>1 outnerr.txt - redirect both standard error and output to the same file
+command >&  outnerr.txt
+command > outnerr.txt 2>&1
+
+Append error and standard output 
+command &>> outnerr.txt 
+command >> outerr.txt 2>&1 
+
+
+Here Documents         
+<<                      - accepts text on the following lines as standard input. 
+Example: 
+grep "pattern" <<EOF
+line 1 with pattern
+line 2 without patten
+line 3 with pattern
+EOF
+
+Output : It will print line 1 and line3 
+
+set -o noclobber        - to protect against accidental overwriting
+command >| output.txt   - to overwrite the file, you can force it using >|
+
+set -o option_name  # Enables the option
+set +o option_name  # Disables the option
