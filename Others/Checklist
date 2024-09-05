@@ -105,6 +105,10 @@ PCRE Notation
            d
            y
            s
+           r
+           g 
+           G
+           =
 
     - Scripting 
     - Advantage of scripting 
@@ -119,6 +123,16 @@ PCRE Notation
 
     - command line arguments 
           
-     
+    - Power Tools 
+        grep 
+        sed 
+        sort 
+        uniq
+        head 
+        tail 
+        cut 
+        tr 
+        wc 
+        cat 
 
-      
+
