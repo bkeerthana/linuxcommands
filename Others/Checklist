@@ -77,8 +77,19 @@ PCRE Notation
     - pipe 
           | 
 
-    - tee 
-
+    - tee (Explore)
+    - File operators 
+         -r read
+         -w write
+         -x execute
+         -e exists
+         -f file 
+         -d directory
+       Explore
+         -s size 
+         -b block file 
+         -c character file 
+         -p pipe file
     - redirection 
         >
         >> 
