@@ -19,3 +19,6 @@ Write a awk script to
 14.	filter rows where both Source_IP and Destination_IP are within the 192.168.x.x range.
 15.	filter out traffic where the destination port is 22 OR the packet size is less than 100 bytes.
 
+=========================================================================================================================================
+ “Coming together is a beginning, staying together is progress, and working together is success.” — Henry Ford 
+=========================================================================================================================================
