@@ -83,4 +83,6 @@ Write a sed command  to
 82.	Remove all leading zeroes from all numbers on each line.  Don't mishandle a single digit zero.
 83.	would take all the file names in the current directory that end in ".txt" and rename them to end in ".dat".  What pattern would you use to rename files with names such as "file1.day.mon" to "file1.mon.day", e.g. "foo.31.01" would become "foo.01.31" and "bar.30.12" would become "bar.12.30", etc.?
 84.	Write a script that will convert alphabetic dated file names to numeric names, e.g. a file named "Mar.12.99" would be renamed "1999-03-12" and "Jul.31.54" would become "1954-07-31".  Make sure your script doesn't overwrite any existing files.  Does your script handle all the possible forms of each month name, e.g. "Mar", "MAR", "mar", "March", "MARCH", "march"? (Hint: You can use multiple "-e" options to sed.)  (p.s. Does your script handle the year 2000?)
-
+===========================================================================================================================================================================
+“Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.” — Mark Twain
+===========================================================================================================================================================================
