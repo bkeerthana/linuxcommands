@@ -14,5 +14,18 @@
 14.	Use the hostname command to display and change the hostname of your machine.
 15.	Use the finger command to gather information about users on a system.
 16.	Use the who command to see who is currently logged into the system and the last command to view the login history.
+-------------------------------------------------------------------------------------------------------------------------
+Xargs
+-------------------------------------------------------------------------------------------------------------------------
+1. Write a shell script called testurl.sh that accepts a list of urls in a separate file and tests if the website is up or not. 
+2. Create a shell script called diskhog.sh that lists the 5 largest items (files or directories) in the current directory in decreasing order of size.
+3. compress all .log files found in the /var/logs/ directory?
+4. delete all temporary files older than 7 days from the /tmp/ directory?
+5. write a shell script to make all .sh files in your home directory executable?
+6. search for the string "auth" in all .conf files in the /etc/ directory
+7. count the number of "failed" login attempts in all .log files in /var/log/?
+8. rename all .txt files in the current directory by appending .bak 
+9. Write a shell script to check if a list of users from users.txt exist in the system.
+10. search for keywords like "ERROR" or "CRITICAL" in all log files over 1MB in size.
 =================================================================================================================================================================
 “If everyone is moving forward together, then success takes care of itself.” — Henry Ford 
