@@ -1,2 +1,2 @@
-Search for the flag that follows the exact pattern Flag{...}. 
-The task is to locate this flag, which follows a specific pattern.
+
+The task is to locate this flag, which follows a specific pattern Flag{...} from the hidden_flag.txt
