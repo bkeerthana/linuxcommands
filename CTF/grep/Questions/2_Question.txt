@@ -1,0 +1,3 @@
+The task is to find the hidden flag inside a randomly generated text file.
+The flag follows the pattern Flag{...}
+Your task is to find and extract the flag using appropriate command-line tools.

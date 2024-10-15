@@ -1,0 +1,2 @@
+A hidden flag is concealed within a text file "hidden_flag.txt", and it follows the specific pattern Flag{...}. 
+This would be really tedious to look through manually, something tells me there is a better way. 
