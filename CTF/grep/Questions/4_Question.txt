@@ -1,0 +1,1 @@
+The task is to find the line number of the flag, which follows a specific pattern Flag{...} from the hidden_flag.txt
