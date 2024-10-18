@@ -1,0 +1,25 @@
+Concepts: Process, trap, kill, 
+
+1. Write a bash script that monitors a sensitive directory (of your choice) for changes using inotifywait (Linux command). Use trap to handle SIGINT (Ctrl+C) to safely exit the script without leaving any processes running.
+
+2. Write a bash script that starts a background process (of your choice), and use trap to catch SIGINT and terminate the process cleanly.
+
+3. Write a script that kills any process exceeding a defined CPU or memory usage limit or matching a list of malicious process names. The script should log the terminated process details for auditing purposes.
+
+4. Write a script that monitors running processes and identifies any process that matches a list of known suspicious names (like netcat, nmap). 
+
+5. Create a script that runs a background process (such as a continuous ping to a specified IP address). Use trap to capture termination signals (SIGINT, SIGTERM) and ensure the background process is terminated safely when the script is interrupted.
+
+6. Write a script that checks /var/log/auth.log for failed login attempts and sends notification if any are found. Schedule this script to run every 15 minutes using cron command. 
+
+7. Write a script that removes all files older than 7 days from the /tmp directory, and use at to schedule the script to run at 2:00 AM the next day.
+
+8. Write a script to check if disk usage exceeds 80%, and use at to schedule it to run at a specific time.
+
+
+==========================================================================================="None can destroy iron, but its own rust can! Likewise, none can destroy a person, but their own mindset can."
+
+"Dream big and work hard to make those dreams a reality."
+
+"Never stop learning. Keep challenging yourself to grow and evolve."
+===========================================================================================
