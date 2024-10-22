@@ -147,3 +147,77 @@ PCRE Notation
         cat 
 
 
+    - awk 
+          pattern block 
+                / / 
+                &&
+                !
+                 ||
+          action block 
+               sequence 
+               conditional statements 
+               looping statements 
+          begin block 
+          end block 
+
+          Build in variables 
+              NR
+              NF 
+              FS 
+              OFS 
+              RS 
+              ORS 
+              FILENAME 
+
+     /dev/null 
+     tee utility 
+     Explore 
+     diff, cmp, comm  commands 
+
+     Process 
+       - Program 
+       - Process
+       - Types of process 
+       - Process States 
+       - signals
+       - Jobs 
+       - Schedule 
+       - Thread 
+
+     commands 
+           ps
+           pstree
+           top 
+           Explore: htop , atop
+           pgrep
+
+           ls /proc
+           pidof
+
+           --------------------------
+           To control the process 
+           --------------------------
+           fg
+           bg
+           disown 
+           nohup
+
+           ---------------------------
+           To List Jobs
+           ----------------------------
+           jobs
+
+           ------------ 
+           To Schedule 
+           -------------
+           at 
+           cron 
+           systemd.timer
+
+           ------------------
+           To pass signals 
+           ------------------
+           kill 
+           killall 
+
+
