@@ -1,0 +1,97 @@
+Operating System 
+
+   - system Program to manage the system hardware
+   - provide the services 
+
+Function of Operating system 
+     
+       Process Management 
+            control the process. 
+            wait, stop, kill,.... 
+
+       Memory Management
+            Manage memory 
+            read, write ,.... 
+            
+       File Management 
+           Files 
+           rename, move, copy and so on 
+
+       Device Management 
+           monitor keyboard 
+           interrupts and signals 
+     
+       Protection and security 
+           chmod, chown, sticky bits 
+
+Components of Operating system 
+       user interface 
+       boot loader 
+       kernel           
+       libraries        - c, python libraries 
+       system utilites  - package mangager, disk formatters
+
+
+System calls
+
+Provide interface to the services made available by an operating system. In simple words, 
+provide access to the services offered by an operating system
+
+System calls are made by the program, when it needs to access system resources from the kernel of operating system.
+
+
+Program can execute in two modes 
+       - User mode (safe mode)
+             No direct connection to the hardware or memory 
+             if program crash the application will crash 
+             if need memory access then it uses system call to access system resources 
+
+             Context switching 
+             converts from user mode to kernel mode 
+
+       - Kernel mode (Privileged mode)
+             direct connection to the resources 
+             if program crash the entire system will crash
+
+
+
+       user 
+       Application Program
+         |
+         | System calls ==> write, read , open, close , fork exit , connect, send, mkdir
+         | 
+       OS Kernel  
+       Hardware Drivers 
+       Hardware 
+
+Example: How to copy the file contents from one file to another 
+         write the contents to the file 
+         read the content from the file  and so on. 
+
+Types of system calls
+
+        Process management 
+          control the process  
+          Ex: end , abort, load, execute , create, terminate, get process attributes
+              set attributes, wait for time, wait event , signal event , allocate and free    memory. 
+        
+        File manipulation
+        create file, open file, close file, delete file, read, write, get file and set file attributes. 
+ 
+        device management
+        request device, release device, get and set device attributes , logically attach and detach devices  
+
+        Information maintenance 
+        process id , parent id , stat details and so on 
+        
+        Communication 
+        socket, and so on 
+
+To get the man page 
+      man 2 open 
+      man 2 write 
+      man 2 read
+
+=====================================================================================================================
+“Self-belief and hard work will always earn you success.” – Virat Kohli.
+=====================================================================================================================
