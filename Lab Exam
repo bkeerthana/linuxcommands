@@ -1,0 +1,15 @@
+1.	Select a cybersecurity application or task where automation or analysis can play a crucial role.
+2.	Develop a Shell Script that:
+o	Implements your chosen application or task.
+o	Uses cybersecurity-related tools in the scripting process (e.g., awk, sed, grep).
+o	Aims to use a variety of tools to show competency in tool usage and integration.
+3.	Functionality Requirements:
+o	Automation: Automate tasks to save manual effort and ensure consistent monitoring/reporting.
+o	Reporting: Generate a summary or detailed report that highlights key findings from your analysis or automation.
+o	Analysis: Include analysis of the findings with relevant insights or alerts.
+Marks Split-Up:
+•	Application Selection (5 Marks): Choose a relevant and impactful application for cybersecurity.
+•	Appropriate Tool Usage (5 Marks): Select tools that effectively align with the chosen task.
+•	Number of Tools Used (30 Marks): Integrate multiple tools to enhance the functionality and depth of your script.
+•	Automation/Reporting/Analysis (10 Marks): Implement effective automation, produce meaningful reports, or provide insightful analysis of the findings.
+
