@@ -72,7 +72,9 @@ PCRE Notation
           \w– Any word character (Uppercase and lowercase Latin alphabet, numbers 0-9, and _)
           \W– Any non-word character (the inverse of the \w token)
           \b– Word boundary: The boundaries between \w and \W, but matches in-between characters
-          \B– Non-word boundary: The inverse of \b
+           \B– Non-word boundary: The inverse of \b
+
+   Globbing Vs Regular Expression 
 
     - pipe 
           | 
@@ -220,4 +222,89 @@ PCRE Notation
            kill 
            killall 
 
+            IPCommunication 
+               Different IPC comminication
+               compare 
+               Advantage disadvantage b/w differnt IPC 
+               when to use which IPC 
 
+          Process States 
+
+          Applications of Scripting in Cybersecurity  
+          Linux booting process*
+             identify key stages where an attacker might attempt to gain unauthorized access. 
+             How can these vulnerabilities be mitigated?
+
+          Explain the significance of the Zombie and Orphan process states in Linux. How do these states affect system performance and resource management?  Explain how to create Zombie and Orphan process with an example.
+
+          #include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <unistd.h>
+
+int main() {
+    pid_t child_pid;
+
+    child_pid = fork(); // Create a child process
+
+    if (child_pid < 0) {
+        fprintf(stderr, "Fork failed\n");
+        return 1;
+    } else if (child_pid == 0) {
+        // Child process
+        printf("Child process executing\n");
+        exit(0);
+    } else {
+        // Parent process
+        sleep(2); // Parent process waits for 2 seconds
+
+        // The parent process does not handle the termination of the child process
+        // It does not invoke wait() or waitpid() to collect the exit status
+
+        printf("Parent process executing\n");
+        printf("Zombie process created\n");
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+// A C program to demonstrate Orphan Process.  
+// Parent process finishes execution while the 
+// child process is running. The child process 
+// becomes orphan. 
+#include<stdio.h> 
+#include <sys/types.h> 
+#include <unistd.h> 
+  
+int main() 
+{ 
+    // Create a child process       
+    int pid = fork(); 
+  
+    if (pid > 0) 
+        printf("in parent process"); 
+  
+    // Note that pid is 0 in child process 
+    // and negative if fork() fails 
+    else if (pid == 0) 
+    { 
+        sleep(30); 
+        printf("in child process"); 
+    } 
+  
+    return 0; 
+
+    Explain the importance of operating systems in cybersecurity. Discuss how an OS can both enhance and hinder security, providing examples of common OS vulnerabilities that attackers may exploit.
+
+    Compare Pre-emptive Scheduling and Non-Pre-emptive scheduling with respect to the following points 
+
+          PCB
+
+
+          
