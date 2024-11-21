@@ -305,6 +305,43 @@ int main()
     Compare Pre-emptive Scheduling and Non-Pre-emptive scheduling with respect to the following points 
 
           PCB
+-----------------------------------------------------------------
+FINAL CHECK
+-----------------------------------------------------------------
+                 OS components
+                 Functions of the components 
+                 Booting process and possible attacks 
+                 OS vulnerabilites 
 
 
+                 Process states 
+                 zombie process orphan process deamon process parent process 
+                 preemptive nonpreemptive scheduling 
+
+
+                Interprocess Communication 
+                PCB
+                Different IPS and pros and cons 
+                When to use which IPC
+
+
+                process commands
+                Shell script 
+
+                constructs 
+
+                grep
+
+                awk 
+
+                sed 
+
+                globbing
+                Basic commands 
+
+                usecase in scripting 
+
+-----------------------------------------------------------------
+ALL THE BEST
+-----------------------------------------------------------------
           
